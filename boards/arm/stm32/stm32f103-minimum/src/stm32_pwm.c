@@ -70,9 +70,6 @@
 #  undef HAVE_PWM
 #endif
 
-#if !defined(CONFIG_STM32_TIM3_CHANNEL) || CONFIG_STM32_TIM3_CHANNEL != STM32F103MINIMUM_PWMCHANNEL
-#  undef HAVE_PWM
-#endif
 
 /****************************************************************************
  * Public Functions
